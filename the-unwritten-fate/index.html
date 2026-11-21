@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Unwritten Fate</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=EB+Garamond:ital@0;1&family=DM+Sans:wght@400;500&family=Caveat:wght@500&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body data-motion="on">
+<header id="bar">
+<button class="brand" data-go="landing">The Unwritten Fate</button>
+<button class="nb" data-p="index">Index</button><button class="nb" data-p="journal">Journal</button><button class="nb" data-p="archive">Archive</button><button class="nb" data-p="settings">Settings</button>
+</header>
+<main>
+<section id="landing"></section>
+<section id="reader" class="hide"></section>
+</main>
+<div id="panel" class="hide" role="dialog" aria-modal="true" aria-label="Book panel"></div>
+<div id="toast" class="hide" role="status" aria-live="polite"></div>
+<script src="js/story-book.js"></script>
+<script src="js/story-extra.js"></script>
+<script src="js/save.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
